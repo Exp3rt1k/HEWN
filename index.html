@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HEWN — подставки для чайника и кухонные доски из ясеня</title>
+  <meta name="description" content="HEWN — мастерская тихих предметов из ясеня: подставки для чайника и кухонные доски. Ручная работа, масло и воск, только ясень.">
+  <meta name="theme-color" content="#EAE1D2">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="HEWN">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="HEWN — подставки для чайника и кухонные доски из ясеня">
+  <meta property="og:description" content="Тихие предметы из ясеня. Одна порода, ручная работа, масло и воск.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23EAE1D2'/%3E%3Cpath d='M19 5h26l14 14v26L45 59H19L5 45V19z' fill='none' stroke='%23221B14' stroke-width='2'/%3E%3Cpath d='M23 20h5v9h8v-9h5v24h-5v-10h-8v10h-5z' fill='%23221B14'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.replace('no-js','js');</script>
+</head>
+<body>
+
+  <svg class="svg-defs" aria-hidden="true" focusable="false"><defs>
+    <symbol id="mark" viewBox="0 0 64 64">
+      <path d="M19 5h26l14 14v26L45 59H19L5 45V19z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+      <path d="M22 11h20l11 11v20L42 53H22L11 42V22z" fill="none" stroke="currentColor" stroke-width=".9" opacity=".45"/>
+      <path d="M9 38c8 7 16 11 25 13M7 28c9 5 17 11 24 16" fill="none" stroke="currentColor" stroke-width=".8" opacity=".3"/>
+      <path d="M23 20h5.2l.4 9.2h6.8L35.8 20H41l.6 24h-5.2l-.4-9.6h-6.8L29 44h-5.2z" fill="currentColor"/>
+      <path d="M23 20l-3-3M41 20l3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+    </symbol>
+  </defs></svg>
+
+  
+  <div class="intro" id="intro" aria-hidden="true">
+    <div class="intro__inner">
+      <div class="intro__meta"><span>ясень</span><span>ручная работа</span></div>
+      <div class="intro__bar"><i></i></div>
+    </div>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <div class="cursor" aria-hidden="true">
+    <span class="cursor__dot"></span>
+    <span class="cursor__ring"></span>
+    <span class="cursor__label"></span>
+  </div>
+
+  <div class="progress" aria-hidden="true"><span class="progress__bar"></span></div>
+
+  <header class="nav" id="nav">
+    <a class="nav__logo" href="#top" aria-label="HEWN — на главную">
+      <svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#mark"></use></svg>
+      <span>HEWN</span>
+    </a>
+    <nav class="nav__links" aria-label="Основная навигация">
+      <a href="#philosophy">Философия</a>
+      <a href="#collection">Коллекция</a>
+      <a href="#ash">Ясень</a>
+      <a href="#process">Процесс</a>
+      <a href="#care">Уход</a>
+    </nav>
+    <div class="nav__right">
+      <a class="nav__cta" href="#contact" data-magnetic>
+        <span>Написать</span>
+        <svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button class="nav__burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true" inert>
+    <div class="menu__inner">
+      <nav class="menu__nav" aria-label="Меню">
+        <a href="#philosophy"><span>01</span>Философия</a>
+        <a href="#collection"><span>02</span>Коллекция</a>
+        <a href="#ash"><span>03</span>Ясень</a>
+        <a href="#process"><span>04</span>Процесс</a>
+        <a href="#care"><span>05</span>Уход</a>
+        <a href="#contact"><span>06</span>Связаться</a>
+      </nav>
+      <div class="menu__foot">
+        <a href="mailto:HEWN63@gmail.com">HEWN63@gmail.com</a>
+        <a href="https://vk.ru/hewn63" target="_blank" rel="noopener">VK · HEWN63</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__meta">
+        <span>Мастерская предметов из ясеня</span>
+        <span>Коллекция № 1 · 2026</span>
+      </div>
+
+      <div class="hero__stage">
+        <h1 class="hero__word" id="hero-title">
+          <span class="hero__word-inner" aria-hidden="true"><span class="hero__letter" style="--i:0">H</span><span class="hero__letter" style="--i:1">E</span><span class="hero__letter" style="--i:2">W</span><span class="hero__letter" style="--i:3">N</span></span>
+          <span class="sr-only">HEWN — подставки для чайника и кухонные доски из ясеня</span>
+        </h1>
+
+        <p class="hero__tagline">Тихие предметы из ясеня — для медленных чаепитий и долгих разговоров на кухне.</p>
+
+        <div class="hero__object" aria-hidden="true">
+          <div class="hero__object-inner">
+            <svg class="hero__teapot" viewBox="0 0 620 660" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="hWood" x1="120" y1="440" x2="500" y2="560" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#EDE0C8"/>
+                  <stop offset=".45" stop-color="#DCC6A4"/>
+                  <stop offset="1" stop-color="#C1A47B"/>
+                </linearGradient>
+                <linearGradient id="hSide" x1="310" y1="500" x2="310" y2="534" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#A8875F"/>
+                  <stop offset="1" stop-color="#7B5D3F"/>
+                </linearGradient>
+                <radialGradient id="hPot" cx="0" cy="0" r="1" gradientTransform="translate(268 348) rotate(58) scale(214 260)" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#4E3D2E"/>
+                  <stop offset=".55" stop-color="#31271E"/>
+                  <stop offset="1" stop-color="#1E1812"/>
+                </radialGradient>
+                <linearGradient id="hLid" x1="250" y1="268" x2="370" y2="306" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#524130"/>
+                  <stop offset="1" stop-color="#2A2119"/>
+                </linearGradient>
+                <radialGradient id="hGlow" cx="0" cy="0" r="1" gradientTransform="translate(310 400) rotate(90) scale(310 300)" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FFF3DC" stop-opacity=".9"/>
+                  <stop offset="1" stop-color="#FFF3DC" stop-opacity="0"/>
+                </radialGradient>
+                <filter id="hBlur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="16"/></filter>
+                <filter id="hBlurS" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7"/></filter>
+                <clipPath id="hTopClip"><ellipse cx="310" cy="500" rx="216" ry="60"/></clipPath>
+              </defs>
+
+              <ellipse cx="310" cy="566" rx="236" ry="34" fill="#3A2A1B" opacity=".2" filter="url(#hBlur)"/>
+              <ellipse cx="310" cy="404" rx="300" ry="286" fill="url(#hGlow)" opacity=".55"/>
+
+              <path d="M94 500v32a216 60 0 0 0 432 0v-32z" fill="url(#hSide)"/>
+              <ellipse cx="310" cy="500" rx="216" ry="60" fill="url(#hWood)"/>
+              <g clip-path="url(#hTopClip)" fill="none" stroke="#9E7C54" stroke-linecap="round">
+                <path opacity=".32" stroke-width="1.8" d="M100 494c54-16 94 12 150 8s108-24 160-12 76 20 110 8"/>
+                <path opacity=".26" stroke-width="1.3" d="M88 514c60 12 106-12 166-8s108 22 170 10 88-14 120-4"/>
+                <path opacity=".24" stroke-width="1.2" d="M104 532c52-10 92 8 148 6s110-18 166-8 72 14 104 4"/>
+                <path opacity=".28" stroke-width="1.4" d="M112 472c58-12 104 6 164 4s112-12 168-2"/>
+                <path opacity=".2" stroke-width="1.1" d="M140 544c46 6 84-8 132-6s96 14 148 6"/>
+                <path opacity=".3" stroke-width="1.2" d="M130 456c48-10 88 2 140 2s104-10 152-2"/>
+                <ellipse cx="418" cy="518" rx="17" ry="6" opacity=".35" stroke-width="1.4"/>
+                <ellipse cx="418" cy="518" rx="7" ry="2.6" opacity=".45" stroke-width="1.2"/>
+              </g>
+              <path d="M142 474c42-20 92-26 142-20" stroke="#FFF8EA" stroke-width="2" stroke-linecap="round" opacity=".3" clip-path="url(#hTopClip)"/>
+              <ellipse cx="310" cy="500" rx="172" ry="44" stroke="#8A6B47" stroke-width="3.5" opacity=".5"/>
+              <ellipse cx="310" cy="498" rx="167" ry="41" stroke="#F6E9D2" stroke-width="1.4" opacity=".45"/>
+              <ellipse cx="310" cy="500" rx="216" ry="60" stroke="#886A46" stroke-width="1.4" opacity=".4"/>
+              <text x="310" y="529" text-anchor="middle" font-family="Manrope, sans-serif" font-size="8.5" letter-spacing="4.6" fill="#6B4F33" opacity=".55">HEWN</text>
+
+              <ellipse cx="310" cy="490" rx="118" ry="24" fill="#2C2117" opacity=".45" filter="url(#hBlurS)"/>
+
+              <path d="M392 350c58-14 76 58 22 82" stroke="#241C15" stroke-width="20" stroke-linecap="round"/>
+              <path d="M240 360c-30-4-55-22-70-50-5-10 5-18 16-11 25 16 47 33 63 47z" fill="url(#hPot)"/>
+              <ellipse cx="176" cy="306" rx="13" ry="6.5" transform="rotate(-30 176 306)" fill="#181310"/>
+
+              <path d="M310 296c-44 0-80 22-92 60-12 39-4 92 30 117 17 12 38 18 62 18s45-6 62-18c34-25 42-78 30-117-12-38-48-60-92-60z" fill="url(#hPot)"/>
+              <path d="M258 328c-18 18-26 44-24 72" stroke="#7A6249" stroke-width="10" stroke-linecap="round" opacity=".22"/>
+              <path d="M366 332c12 18 16 40 12 62" stroke="#0F0C09" stroke-width="16" stroke-linecap="round" opacity=".22"/>
+
+              <ellipse cx="310" cy="296" rx="64" ry="14" fill="#2A2119"/>
+              <ellipse cx="310" cy="294" rx="55" ry="10" fill="#15100C"/>
+              <path d="M251 296c4-26 26-42 59-42s55 16 59 42z" fill="url(#hLid)"/>
+              <path d="M270 272c8-9 22-14 40-14" stroke="#80674D" stroke-width="4" stroke-linecap="round" opacity=".32"/>
+              <path d="M302 256h16l3-9h-22z" fill="#2A2119"/>
+              <ellipse cx="310" cy="247" rx="14" ry="7" fill="#3D3025"/>
+              <ellipse cx="310" cy="245" rx="7" ry="3" fill="#6B5540" opacity=".45"/>
+
+              <g class="steam" stroke="#8E7A63" stroke-width="3" stroke-linecap="round" fill="none" opacity=".5">
+                <path class="steam__p" d="M165 292c-18-26 12-40-3-66-12-21 6-36 1-52"/>
+                <path class="steam__p" d="M190 284c-14-21 9-33-2-54-9-17 5-29 2-42"/>
+                <path class="steam__p" d="M145 280c-10-16 7-26-1-42-7-14 4-23 1-34"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__foot">
+        <p class="hero__desc">Подставки для чайника и кухонные доски. Одна порода, две формы, никакой спешки.</p>
+        <a class="hero__scroll" href="#philosophy"><span>Листайте</span><i></i></a>
+        <p class="hero__dict">hewn&nbsp;/hjuːn/ — обтёсанный</p>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__group">
+          <span>Только ясень</span><span class="marquee__star">✦</span>
+          <span>Ручная работа</span><span class="marquee__star">✦</span>
+          <span>Масло и воск</span><span class="marquee__star">✦</span>
+          <span>Подставки для чайника</span><span class="marquee__star">✦</span>
+          <span>Кухонные доски</span><span class="marquee__star">✦</span>
+        </div>
+        <div class="marquee__group">
+          <span>Только ясень</span><span class="marquee__star">✦</span>
+          <span>Ручная работа</span><span class="marquee__star">✦</span>
+          <span>Масло и воск</span><span class="marquee__star">✦</span>
+          <span>Подставки для чайника</span><span class="marquee__star">✦</span>
+          <span>Кухонные доски</span><span class="marquee__star">✦</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- MANIFESTO -->
+    <section class="manifesto" id="philosophy">
+      <div class="wrap manifesto__grid">
+        <aside class="manifesto__aside">
+          <p class="label reveal">01 / Философия</p>
+          <p class="manifesto__note reveal" style="--d:.08s">Пока — только ясень.<br>Это не ограничение,<br>а выбор.</p>
+        </aside>
+
+        <div class="manifesto__main">
+          <h2 class="display manifesto__title" data-split>Мы обтёсываем дерево, пока не останется <em>главное.</em></h2>
+
+          <div class="manifesto__text">
+            <p class="reveal" style="--d:.05s">HEWN — значит «обтёсанный». Это не про грубость, а про честность формы: убрать лишнее и не мешать материалу говорить.</p>
+            <p class="reveal" style="--d:.12s">Ясень не любит суеты. Мы тоже. Каждый предмет начинается с доски, которую хочется взять в руки, и заканчивается поверхностью, к которой хочется прикасаться.</p>
+            <p class="reveal" style="--d:.19s">Мы работаем небольшими партиями и только с ясенем. Так проще отвечать за то, что выходит из мастерской: за рисунок волокон, за шлифовку, за каждый слой масла.</p>
+          </div>
+
+          <p class="manifesto__sign reveal" style="--d:.1s">— мастерская HEWN</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLECTION -->
+    <section class="collection" id="collection">
+      <div class="wrap">
+        <div class="sec-head">
+          <p class="label reveal">02 / Коллекция</p>
+          <div class="sec-head__row">
+            <h2 class="display sec-head__title" data-split>Два предмета.<br><em>Одна порода.</em></h2>
+            <p class="sec-head__note reveal" style="--d:.1s">Подставки для чайника и кухонные доски. Без лишних деталей — только форма, дерево и рука.</p>
+          </div>
+        </div>
+
+        <div class="cards">
+          <article class="card card--photo card--teapot reveal" data-tilt>
+            <div class="card__media">
+              <span class="card__tag">Ясень</span>
+              <span class="card__index">01</span>
+              <div class="card__tilt">
+                <img class="card__photo" src="assets/teapot.jpg" alt="Стеклянный чайник с облепиховым чаем на круглой подставке из ясеня" loading="lazy">
+              </div>
+              <span class="card__shine" aria-hidden="true"></span>
+              <svg class="card__steam" viewBox="0 0 220 320" fill="none" aria-hidden="true">
+                <path class="card__wisp" d="M120 290c-22-38 26-64-4-105-23-32 22-55 2-91-12-21 4-36 2-52"/>
+                <path class="card__wisp" d="M148 300c-16-30 20-52-2-84-18-26 18-44 3-73"/>
+              </svg>
+              <span class="card__seal"><svg class="card__mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#mark"></use></svg></span>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">Круглая · ясень</p>
+                <h3 class="card__name">Подставка для чайника</h3>
+              </div>
+              <p class="card__desc">Держит тепло, защищает стол и оставляет чайник в центре внимания.</p>
+            </div>
+          </article>
+
+          <article class="card card--photo reveal" data-tilt style="--d:.08s">
+            <div class="card__media">
+              <span class="card__tag">Ясень</span>
+              <span class="card__index">02</span>
+              <div class="card__tilt">
+                <img class="card__photo" src="assets/board.jpg" alt="Кухонная доска из ясеня с отверстием для подвешивания и клеймом HEWN" loading="lazy">
+              </div>
+              <span class="card__shine" aria-hidden="true"></span>
+              <span class="card__seal"><svg class="card__mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#mark"></use></svg></span>
+            </div>
+            <div class="card__info">
+              <div>
+                <p class="card__cat">С ручкой · ясень</p>
+                <h3 class="card__name">Кухонная доска</h3>
+              </div>
+              <p class="card__desc">Одна доска для готовки и подачи. С клеймом мастерской и следом рук.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SMOKE -->
+    <section class="smoke" aria-labelledby="smoke-title">
+      <div class="smoke__media reveal">
+        <img src="assets/teapot.jpg" alt="Стеклянный чайник с облепиховым чаем на подставке из ясеня" loading="lazy">
+        <svg class="smoke__steam" viewBox="0 0 300 500" fill="none" aria-hidden="true">
+          <path class="smoke__wisp" d="M148 460c-26-42 30-72-2-118-26-37 24-64 0-104-14-25 6-45 2-64"/>
+          <path class="smoke__wisp" d="M176 475c-20-35 24-60-3-98-21-30 20-52 2-84"/>
+          <path class="smoke__wisp" d="M122 468c-16-28 18-49-3-79-16-24 16-42 1-67"/>
+        </svg>
+        <div class="smoke__overlay">
+          <div class="wrap smoke__caption">
+            <p class="label smoke__label">Тепло · ясень</p>
+            <h2 class="display smoke__title" id="smoke-title" data-split>Чайник ещё горячий.<br><em>Дерево держит тепло.</em></h2>
+            <p class="smoke__text">Подставка принимает на себя горячее — и оставляет на столе спокойное дерево.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ASH -->
+    <section class="ash" id="ash">
+      <div class="wrap ash__grid">
+        <div class="ash__copy">
+          <p class="label label--light reveal">03 / Материал</p>
+          <h2 class="display ash__title" data-split>Одна порода.<br><em>Без компромиссов.</em></h2>
+          <p class="ash__lead reveal" style="--d:.08s">Пока мы работаем только с ясенем. Не потому что не пробовали другое, — потому что нашли своё.</p>
+          <p class="ash__text reveal" style="--d:.14s">Ясень светлый и упругий, с выразительным рисунком волокон. Он одинаково хорошо держит форму подставки и тонкий край доски. Со временем дерево темнеет, проявляет глубину и становится только теплее.</p>
+
+          <ul class="facts">
+            <li class="reveal" style="--d:.05s"><span class="facts__k">Порода</span><span class="facts__v">Fraxinus excelsior</span></li>
+            <li class="reveal" style="--d:.1s"><span class="facts__k">Характер</span><span class="facts__v">светлый, упругий, живой</span></li>
+            <li class="reveal" style="--d:.15s"><span class="facts__k">Рисунок</span><span class="facts__v">выраженные волокна</span></li>
+            <li class="reveal" style="--d:.2s"><span class="facts__k">Финиш</span><span class="facts__v">масло с воском</span></li>
+          </ul>
+        </div>
+
+        <figure class="ash__figure reveal" style="--d:.1s">
+          <svg class="ash__ring-svg" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <radialGradient id="ashFace" cx=".42" cy=".36" r=".72">
+                <stop stop-color="#F1E5D0"/>
+                <stop offset=".62" stop-color="#DDC7A6"/>
+                <stop offset="1" stop-color="#C0A37A"/>
+              </radialGradient>
+              <filter id="ashWobble" x="-15%" y="-15%" width="130%" height="130%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.009 0.018" numOctaves="2" seed="7" result="noise"/>
+                <feDisplacementMap in="SourceGraphic" in2="noise" scale="16" xChannelSelector="R" yChannelSelector="G"/>
+              </filter>
+              <filter id="ashShadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+            </defs>
+            <circle cx="300" cy="316" r="246" fill="#0B0806" opacity=".55" filter="url(#ashShadow)"/>
+            <g filter="url(#ashWobble)">
+              <circle cx="300" cy="300" r="246" fill="url(#ashFace)"/>
+              <g class="rings" fill="none" stroke="#8B7152" stroke-linecap="round">
+                <circle class="ring" cx="301" cy="300" r="236" stroke-width="1.8" opacity=".3"/>
+                <circle class="ring" cx="299" cy="302" r="222" stroke-width="2.2" opacity=".4"/>
+                <circle class="ring" cx="300" cy="299" r="200" stroke-width="1.6" opacity=".28"/>
+                <circle class="ring" cx="298" cy="301" r="174" stroke-width="2.6" opacity=".42"/>
+                <circle class="ring" cx="301" cy="300" r="148" stroke-width="1.5" opacity=".26"/>
+                <circle class="ring" cx="300" cy="302" r="120" stroke-width="2.4" opacity=".4"/>
+                <circle class="ring" cx="299" cy="299" r="94" stroke-width="1.7" opacity=".3"/>
+                <circle class="ring" cx="301" cy="301" r="66" stroke-width="2.2" opacity=".38"/>
+                <circle class="ring" cx="300" cy="300" r="40" stroke-width="1.6" opacity=".3"/>
+              </g>
+              <path d="M306 300c-10-52-4-102 10-148" stroke="#6E5842" stroke-width="1.6" opacity=".35"/>
+              <path d="M308 302c42-18 88-22 138-10" stroke="#6E5842" stroke-width="1.4" opacity=".28"/>
+              <path d="M300 162c-8-34 4-62 16-86" stroke="#6E5842" stroke-width="1.3" opacity=".25"/>
+              <circle cx="300" cy="300" r="246" stroke="#6E5842" stroke-width="7" opacity=".75"/>
+              <circle cx="300" cy="300" r="242.5" stroke="#F2E5CE" stroke-width="1.4" opacity=".4"/>
+            </g>
+          </svg>
+          <figcaption>Срез ясеня · рисунок, с которого начинается предмет</figcaption>
+        </figure>
+      </div>
+      <span class="ash__ghost" aria-hidden="true" data-parallax="0.06">FRAXINUS</span>
+    </section>
+
+    <!-- PALETTE -->
+    <section class="palette" id="palette" aria-labelledby="palette-title">
+      <div class="wrap">
+        <div class="palette__head">
+          <p class="label reveal">Палитра</p>
+          <h2 class="display palette__title" id="palette-title" data-split>Цвет — это <em>сама порода.</em></h2>
+          <p class="palette__note reveal" style="--d:.1s">Мы не красим дерево. Только масло и воск — они проявляют тон, который уже есть внутри.</p>
+        </div>
+      </div>
+
+      <div class="palette__strip">
+        <article class="swatch reveal" style="--sw:#EDE4D3;--d:.02s">
+          <span class="swatch__num">01</span>
+          <div class="swatch__body">
+            <h3 class="swatch__name">Пшеничный</h3>
+            <p class="swatch__desc">Свежий срез. Самый светлый тон породы.</p>
+            <span class="swatch__hex">#EDE4D3</span>
+          </div>
+        </article>
+        <article class="swatch reveal" style="--sw:#DCC7A5;--d:.06s">
+          <span class="swatch__num">02</span>
+          <div class="swatch__body">
+            <h3 class="swatch__name">Медовый</h3>
+            <p class="swatch__desc">Тёплый оттенок, который дерево набирает со временем.</p>
+            <span class="swatch__hex">#DCC7A5</span>
+          </div>
+        </article>
+        <article class="swatch reveal" style="--sw:#BBA98E;--d:.1s">
+          <span class="swatch__num">03</span>
+          <div class="swatch__body">
+            <h3 class="swatch__name">Пепельный</h3>
+            <p class="swatch__desc">Сдержанный и чуть дымный. Наш любимый.</p>
+            <span class="swatch__hex">#BBA98E</span>
+          </div>
+        </article>
+        <article class="swatch is-dark reveal" style="--sw:#8A745B;--d:.14s">
+          <span class="swatch__num">04</span>
+          <div class="swatch__body">
+            <h3 class="swatch__name">Дымчатый</h3>
+            <p class="swatch__desc">Глубина, которая проявляется под маслом.</p>
+            <span class="swatch__hex">#8A745B</span>
+          </div>
+        </article>
+        <article class="swatch is-dark reveal" style="--sw:#453627;--d:.18s">
+          <span class="swatch__num">05</span>
+          <div class="swatch__body">
+            <h3 class="swatch__name">Тёмный воск</h3>
+            <p class="swatch__desc">Тень дерева, а не его новая краска.</p>
+            <span class="swatch__hex">#453627</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process" id="process">
+      <div class="wrap">
+        <div class="process__head">
+          <p class="label reveal">04 / Процесс</p>
+          <h2 class="display process__title" data-split>Из доски — <em>в предмет.</em></h2>
+        </div>
+
+        <div class="process__grid">
+          <aside class="process__aside">
+            <div class="seal reveal">
+              <svg class="seal__svg" viewBox="0 0 220 220" aria-hidden="true">
+                <defs>
+                  <path id="sealCircle" d="M110,110 m-82,0 a82,82 0 1,1 164,0 a82,82 0 1,1 -164,0"/>
+                </defs>
+                <g class="seal__rotate">
+                  <circle cx="110" cy="110" r="101" fill="none" stroke="currentColor" stroke-width=".8" opacity=".35"/>
+                  <circle cx="110" cy="110" r="60" fill="none" stroke="currentColor" stroke-width=".8" opacity=".22"/>
+                  <text font-family="Manrope, sans-serif" font-size="9" letter-spacing="3.4" fill="currentColor" opacity=".85"><textPath href="#sealCircle">ЯСЕНЬ · РУЧНАЯ РАБОТА · HEWN · ОБТЁСАНО · </textPath></text>
+                </g>
+                <g class="seal__mark" stroke="currentColor">
+                  <path d="M99 96v29M110 89v43M121 98v27" stroke-width="1.5" stroke-linecap="round" opacity=".8"/>
+                  <text x="110" y="154" text-anchor="middle" font-family="Manrope, sans-serif" font-size="6.5" letter-spacing="2.6" fill="currentColor" stroke="none" opacity=".7">HEWN</text>
+                </g>
+              </svg>
+            </div>
+            <p class="process__note reveal" style="--d:.1s">«Мы не ускоряем ясень.<br>Он сам подсказывает темп.»</p>
+          </aside>
+
+          <ol class="steps">
+            <li class="step">
+              <span class="step__num">01</span>
+              <div class="step__body">
+                <h3 class="step__title">Отбор</h3>
+                <p class="step__text">Смотрим не на ценник, а на рисунок. Доска сама подсказывает, чем станет: подставкой или доской.</p>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step__num">02</span>
+              <div class="step__body">
+                <h3 class="step__title">Форма</h3>
+                <p class="step__text">Обтёсываем лишнее. Форма не добавляется — она проявляется. Отсюда и имя: HEWN.</p>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step__num">03</span>
+              <div class="step__body">
+                <h3 class="step__title">Шлифовка</h3>
+                <p class="step__text">Проходим несколько зёрен, пока поверхность не станет шёлковой. На ощупь — важнее, чем на вид.</p>
+              </div>
+            </li>
+            <li class="step">
+              <span class="step__num">04</span>
+              <div class="step__body">
+                <h3 class="step__title">Масло</h3>
+                <p class="step__text">Питаем маслом с воском. Дерево остаётся деревом: дышит, темнеет, живёт вместе с вами.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARE -->
+    <section class="care" id="care">
+      <div class="wrap care__grid">
+        <div class="care__aside">
+          <p class="label reveal">05 / Уход</p>
+          <h2 class="display care__title" data-split>Дерево любит <em>внимание.</em></h2>
+          <p class="care__lead reveal" style="--d:.1s">Ничего сложного. Ясень прощает многое, если не забывать о нём совсем.</p>
+        </div>
+
+        <div class="acc reveal" style="--d:.08s">
+          <div class="acc__item is-open">
+            <button class="acc__head" type="button" aria-expanded="true" aria-controls="care-1" id="care-btn-1">
+              <span class="acc__num">01</span>
+              <span class="acc__title">Каждый день</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc__body" id="care-1" role="region" aria-labelledby="care-btn-1">
+              <div><p>Протирайте влажной тканью и сразу вытирайте насухо. Ясень не боится воды — он не любит, когда его оставляют в ней надолго.</p></div>
+            </div>
+          </div>
+
+          <div class="acc__item">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="care-2" id="care-btn-2">
+              <span class="acc__num">02</span>
+              <span class="acc__title">Раз в месяц</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc__body" id="care-2" role="region" aria-labelledby="care-btn-2">
+              <div><p>Обновляйте маслом с воском: тонкий слой, тёплая ткань, немного времени. Дерево ответит глубиной цвета.</p></div>
+            </div>
+          </div>
+
+          <div class="acc__item">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="care-3" id="care-btn-3">
+              <span class="acc__num">03</span>
+              <span class="acc__title">Следы — это нормально</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc__body" id="care-3" role="region" aria-labelledby="care-btn-3">
+              <div><p>Пятна от чая, лёгкие порезы, потёртости — часть жизни. Их можно мягко отшлифовать и снова покрыть маслом.</p></div>
+            </div>
+          </div>
+
+          <div class="acc__item">
+            <button class="acc__head" type="button" aria-expanded="false" aria-controls="care-4" id="care-btn-4">
+              <span class="acc__num">04</span>
+              <span class="acc__title">Чего избегать</span>
+              <span class="acc__icon" aria-hidden="true"></span>
+            </button>
+            <div class="acc__body" id="care-4" role="region" aria-labelledby="care-btn-4">
+              <div><p>Посудомоечная машина, прямые солнечные лучи и долгое замачивание. Всё остальное — можно.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <p class="label label--light reveal">06 / Связаться</p>
+        <h2 class="display contact__title" data-split>Давайте сделаем<br><em>что-то тёплое.</em></h2>
+
+        <div class="contact__row">
+          <a class="contact__mail" href="mailto:HEWN63@gmail.com" data-magnetic>
+            <span>HEWN63@gmail.com</span>
+            <svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <div class="contact__aside">
+            <p class="contact__note reveal">Расскажите, какой предмет нужен и для чего. Мы ответим, предложим форму и детали — без спешки и мелкого шрифта.</p>
+            <p class="contact__meta reveal" style="--d:.08s">Работаем небольшими партиями · отвечаем в течение пары дней</p>
+          </div>
+        </div>
+
+        <div class="contact__connect">
+          <a class="qr-card reveal" href="https://vk.ru/hewn63" target="_blank" rel="noopener" aria-label="Открыть сообщество HEWN во ВКонтакте">
+            <img src="assets/vk-qr.png" alt="QR-код сообщества HEWN во ВКонтакте" width="600" height="600" loading="lazy">
+            <span class="qr-card__label">VK · HEWN63</span>
+            <span class="qr-card__hint">наведите камеру</span>
+          </a>
+          <div class="contact__vk">
+            <p class="label label--light reveal">Сообщество</p>
+            <a class="contact__vk-link reveal" href="https://vk.ru/hewn63" target="_blank" rel="noopener" style="--d:.05s">
+              <span>VK.RU/HEWN63</span>
+              <svg class="arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <p class="reveal" style="--d:.1s">Новости мастерской, новые предметы и фотографии из процесса — без спешки.</p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="wrap footer__top">
+          <div class="footer__brand">
+            <span class="footer__logo"><svg class="logo-mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#mark"></use></svg><span>HEWN</span></span>
+            <span class="footer__tag">ясень · ручная работа</span>
+          </div>
+          <nav class="footer__nav" aria-label="Навигация в подвале">
+            <a href="#philosophy">Философия</a>
+            <a href="#collection">Коллекция</a>
+            <a href="#ash">Ясень</a>
+            <a href="#process">Процесс</a>
+            <a href="#care">Уход</a>
+          </nav>
+          <div class="footer__contacts">
+            <a href="mailto:HEWN63@gmail.com">HEWN63@gmail.com</a>
+            <a href="https://vk.ru/hewn63" target="_blank" rel="noopener">VK · HEWN63</a>
+            <a href="#top">Наверх ↑</a>
+          </div>
+        </div>
+
+        <div class="footer__mark" aria-hidden="true"><span>HEWN</span></div>
+
+        <div class="wrap footer__bottom">
+          <span>© 2026 HEWN</span>
+          <span>Ясень. Масло. Руки.</span>
+          <span>Сделано в мастерской</span>
+        </div>
+      </footer>
+    </section>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
